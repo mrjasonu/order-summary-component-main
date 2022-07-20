@@ -1,4 +1,5 @@
 .container {
+    box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     width: 360px;
     height: 580px;
@@ -7,10 +8,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid black; */
     box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
     -webkit-box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
     -moz-box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
@@ -19,7 +27,7 @@
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -34,8 +42,7 @@ h2 {
     color: hsl(224, 23%, 55%);
     font-size: 16px;
     font-weight: 400;
-    width: 80%;
-    /* border: 1px solid black; */
+    width: 85%;
     text-align: center;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -47,9 +54,7 @@ h2 {
     align-items: center;
     width: 90%;
     height: 85px;
-    /* height: 75px; */
     background-color:  hsl(225, 100%, 98%);
-    /* border: 1px solid black; */
     padding: 10px;
     border-radius: 10px;
 }
