@@ -1,0 +1,110 @@
+.container {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 360px;
+    height: 580px;
+    border-radius: 10px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
+    -webkit-box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
+    -moz-box-shadow: -2px 4px 24px -6px rgba(0,0,0,0.67);
+}
+
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 18px;
+}
+
+.p-text {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    /* border: 1px solid black; */
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.music-plan {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 85px;
+    /* height: 75px; */
+    background-color:  hsl(225, 100%, 98%);
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.music-icon {
+    margin-right: 8px;
+}
+
+.music-plan h4 {
+    color: hsl(223, 47%, 23%);
+    width: 90px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.change-btn-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.change-btn {
+    text-decoration: underline;
+    color: blue;
+    font-weight: 600;
+}
+
+.payment-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: blue;
+    margin-top: 25px;
+    box-shadow: -1px 17px 28px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 17px 28px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 17px 28px -12px rgba(0,0,0,0.75);
+}
+
+
+.payment-btn h4 {
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.cancel-order-btn {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 800;
+}
